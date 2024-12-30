@@ -10,6 +10,7 @@ These techniques enhance security by leveraging the high sensitivity of chaotic 
 
 ## Features
 - **Chaos-Based Encryption:** High security using chaotic maps.
+- **Comprehensive Analysis:** Includes entropy analysis and contrast analysis.
 - **Object-Oriented Design:** Implements OOP principles such as inheritance for handling different account types and databases.
 
 ## Tools and Technologies
@@ -40,17 +41,31 @@ These techniques enhance security by leveraging the high sensitivity of chaotic 
    ```bash
    jupyter notebook
    ```
-2. Run the notebook to encrypt and decrypt medical images.
+2. Available Notebooks:
+   - `Encryption and Decryption.ipynb`: Main notebook for encryption and decryption.
+   - `Entropy Analysis.ipynb`: Notebook for performing entropy analysis.
+   - `Contrast.ipynb`: Notebook for contrast analysis.
+
+3. Run the appropriate notebook based on the required functionality.
 
 ## Folder Structure
 ```
 medical-image-encryption/
-├── algorithms/            # Chaos-based encryption algorithms
-├── data/                  # Sample medical images
-├── results/               # Encrypted and decrypted outputs
-├── notebooks/             # Jupyter Notebooks
-├── README.md              # Project documentation
-├── requirements.txt       # Python dependencies
+├── .ipynb_checkpoints/         # Auto-generated checkpoints by Jupyter
+├── Using 1-D logistics map/    # Scripts and files for 1-D logistic map encryption
+├── Using 2-D LSCM/             # Scripts and files for 2-D LSCM encryption
+├── images/                     # Sample medical images for testing
+├── Contrast.ipynb              # Notebook for contrast analysis
+├── Decryption.ipynb            # Notebook for decrypting images
+├── Encrypted_image_1.jpeg      # Encrypted image outputs
+├── Encrypted_image_2.jpeg
+├── Encrypted_image_3.jpeg
+├── Encrypted_image_4.jpeg
+├── Encrypted_image_5.jpeg
+├── Encryption and Decryption.ipynb
+├── Entropy Analysis.ipynb
+├── README.md                   # Project documentation
+├── Using 1-D logistics map.zip # Compressed files for 1-D logistic map
 ```
 
 ## Future Enhancements
@@ -70,4 +85,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 For any questions or feedback, please reach out to:
 - **Name:** Amal K Reji
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
+- **Email:** [amalkreji54@gmail.com](mailto:amalkreji54@gmail.com)
